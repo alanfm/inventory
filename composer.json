@@ -1,0 +1,29 @@
+{
+  "name": "acme/inventory",
+  "description": "M\u00f3dulo de almoxarifado de TI do Starterkit",
+  "type": "starterkit-module",
+  "version": "1.0.0",
+  "require": {
+    "php": "~8.5.0",
+    "laravel/framework": "^13.0",
+    "phpoffice/phpspreadsheet": "^5.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Acme\\Inventory\\": "src/",
+      "Acme\\Inventory\\Database\\Factories\\": "database/factories/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Acme\\Inventory\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Acme\\Inventory\\InventoryServiceProvider"
+      ]
+    }
+  }
+}

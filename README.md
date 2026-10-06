@@ -33,7 +33,7 @@ No checkout da aplicação, gere uma distribuição com:
 ./vendor/bin/sail node scripts/export-inventory.mjs
 ```
 
-O resultado fica em `storage/app/inventory-distribution/inventory-1.0.0`, acompanhado de `inventory-1.0.0.tar.gz` com os manifestos na raiz do arquivo. O script não sobrescreve destinos existentes e rejeita links simbólicos. Publique o conteúdo dessa pasta na raiz de um repositório GitHub dedicado. Não publique `.env`, o host, `vendor`, `node_modules`, planilhas ou dados operacionais. A exportação não cria nem publica um repositório remoto.
+O resultado fica em `storage/app/inventory-distribution/inventory-1.0.1`, acompanhado de `inventory-1.0.1.tar.gz` com os manifestos na raiz do arquivo. O script não sobrescreve destinos existentes e rejeita links simbólicos. Publique o conteúdo dessa pasta na raiz de um repositório GitHub dedicado. Não publique `.env`, o host, `vendor`, `node_modules`, planilhas ou dados operacionais. A exportação não cria nem publica um repositório remoto.
 
 ## Instalação pelo painel
 

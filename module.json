@@ -1,4 +1,4 @@
 {
-  "schemaVersion": 1, "name": "inventory", "displayName": "Almoxarifado de TI", "version": "1.0.0", "core": "^1.1.0", "apiPrefix": "inventory", "frontendEntry": "resources/spa/module.ts", "dependencies": [],
+  "schemaVersion": 1, "name": "inventory", "displayName": "Almoxarifado de TI", "version": "1.0.1", "core": "^1.1.0", "apiPrefix": "inventory", "frontendEntry": "resources/spa/module.ts", "dependencies": [],
   "permissions": ["inventory.dashboard.view", "inventory.categories.viewAny", "inventory.categories.create", "inventory.categories.update", "inventory.items.viewAny", "inventory.items.view", "inventory.items.create", "inventory.items.update", "inventory.items.configureReplenishment", "inventory.variants.create", "inventory.variants.update", "inventory.movements.viewAny", "inventory.movements.view", "inventory.movements.manageDrafts", "inventory.entries.create", "inventory.issues.create", "inventory.adjustments.create", "inventory.movements.reverse", "inventory.reports.view", "inventory.reports.export", "inventory.imports.view", "inventory.imports.execute"]
 }

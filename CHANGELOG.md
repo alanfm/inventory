@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.1 — 2026-10-06
+
+- Corrigido o ícone do submenu Movimentações: `Package` substitui `ArrowLeftRight`, ausente na lista pública do Starterkit.
+- Instalações existentes precisam atualizar o módulo e recompilar a SPA.
+
 ## 1.0.0 — 2026-09-30
 
 - Entrega inicial do módulo de Almoxarifado de TI.
@@ -13,4 +18,3 @@
 - Homologação operacional da CTI ainda não executada.
 - Dados reais da planilha não foram importados.
 - Concorrência com processos/conexões reais e retroatividade permanecem pendentes.
-- Nenhum release/tag público foi publicado.

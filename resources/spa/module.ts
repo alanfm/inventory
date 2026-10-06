@@ -83,7 +83,7 @@ const module: FrontendModule = {
     {
       to: "/admin/inventory/movements",
       label: "Movimentações",
-      icon: "ArrowLeftRight",
+      icon: "Package",
       permission: "inventory.movements.viewAny",
       order: 61,
     },
